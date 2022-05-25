@@ -30,7 +30,8 @@
 } .pats-mygtukas {
     display: block;   
     padding-left:2em;
-    padding-top: 0.5em;      
+    padding-top: 0.5em; 
+    padding-bottom: 0.5em;     
     text-decoration: none;
     color: black;
     font-size: x-large;       
@@ -93,7 +94,8 @@
 .paveikslo-mygtukas {
     display: block;    
     padding-left:6em;
-    padding-top: 0.5em;      
+    padding-top: 0.5em; 
+    padding-bottom: 0.8em;     
     text-decoration: none;
     color: black;
     font-size: large;
