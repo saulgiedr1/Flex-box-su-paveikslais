@@ -1,0 +1,40 @@
+
+.antraste {
+    text-align: center;
+}
+.gaubiantis-viska {
+    box-sizing: border-box;   
+    height: 660px;
+    background-color: rgb(212, 205, 205);   
+    margin-left: 80px;    
+}
+.gaubiantis-dienas{     
+    display: flex;
+    justify-content: space-between; 
+       
+}
+.dienos {
+   
+    width: 14%;
+    background-color: rgb(182, 177, 177);
+    margin: 1px;
+    text-align: center;
+    padding: 3px;
+
+}
+.gaubiantis-datas1 {
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.data {
+    background-color: rgb(197, 190, 190);
+    height: 104px;
+    width:14%;   
+    flex-grow:1 ;
+    margin: 1px;
+    text-align: end;
+}
+.spalva {
+    background-color: rgb(212, 205, 205);
+}
