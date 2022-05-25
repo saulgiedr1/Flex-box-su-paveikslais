@@ -6,7 +6,8 @@
     box-sizing: border-box;   
     height: 660px;
     background-color: rgb(212, 205, 205);   
-    margin-left: 80px;    
+    margin-left: 80px;
+    margin-right: 80px;    
 }
 .gaubiantis-dienas{     
     display: flex;
