@@ -1,0 +1,59 @@
+.antraste {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(240, 203, 84);
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+}
+.nuorodos-gaubimas {
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;   
+    padding-left: 4px;
+    padding-right: 4px;
+    background-color: rgb(199, 194, 194);
+   
+}
+.nuorodos-mygtukai {
+    height: 50px;    
+    background-color: white;
+    border: 2px solid black;
+    flex-grow: 1;
+    margin-right: 5px;
+    margin-left: 5px;
+    
+
+} .pats-mygtukas {
+    display: block;
+    height: 50px;
+    padding: 0.5em; 
+    margin-left: 50px; 
+    text-decoration: none;
+    color: black;
+    font-size: x-large;       
+
+}
+.paveikslus-gaubiantis {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 300px;
+    border: 1px solid black;
+
+}
+.paveikslas-text-nuoroda {
+
+}
+.paveikslas {
+
+}
+.tekstas {
+
+}
+.nuoroda {
+
+}
