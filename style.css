@@ -1,17 +1,23 @@
+body {
+    margin: auto;
+}
+
 *{
-    max-width: 1500px;    
+    max-width: 1500px;  
+    box-sizing: border-box;  
     
 }
 .antraste {
-    box-sizing: border-box;
-    width: 100%;
-    
-    height: 100px;
+    display: flex;  
+    justify-content: center; 
+      
+   
     background-color: rgb(240, 203, 84);
     color: white;
-    text-align: center;
-    padding: 0.5em;       
+       
 }
+
+
 
 .nuorodos-gaubimas {
 
@@ -19,9 +25,10 @@
     justify-content: space-between;
     align-items: center;
     height: 70px;   
-    padding-left: 4px;
-    padding-right: 4px;
+    padding-left: 5px;
+    padding-right: 5px;
     background-color: rgb(199, 194, 194);
+    grid-gap: 10px ;
     
 }
 .nuorodos-mygtukai {
@@ -29,8 +36,7 @@
     background-color: white;
     border: 2px solid black;
     flex-grow: 1;
-    margin-right: 5px;
-    margin-left: 5px;    
+    
 
 } .pats-mygtukas {
     display: block;     
@@ -48,6 +54,8 @@
     height: 640px;   
     background-color: rgb(139, 138, 138);
     min-width: 1100px;
+    gap: 14px;
+   
 }
 .paveikslas-text-nuoroda {
     display: flex;
@@ -56,22 +64,18 @@
     width: 100%;
     margin-top: 14px;
     margin-bottom: 14px;
+    
 }
 .parastes1 {
     margin-left: 14px;
-    margin-right:7px;
-}
-.parastes2 {
-    margin-left: 7px;
-    margin-right: 7px;
 }
 .parastes3 {
-    margin-left: 7px;
     margin-right: 14px;
 }
 
+
 .paveikslas {
-    box-sizing: border-box;   
+    
     width: 100%;
     height: 260px;
     padding: 14px;
