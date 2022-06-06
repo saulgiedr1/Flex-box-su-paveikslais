@@ -40,8 +40,11 @@ body {
     text-decoration: none;
     color: black;
     font-size: x-large; 
-    text-align: center;      
+    text-align: center;          
 
+}
+.nematomas-bruksnys {
+    color: white;
 }
 .paveikslus-gaubiantis1 {
     padding-left: 14px;
